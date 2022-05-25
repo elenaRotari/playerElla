@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Alfa+Slab+One&family=Arizonia&family=Bangers&family=Berkshire+Swash&family=Concert+One&family=Dancing+Script:wght@700&family=Fleur+De+Leah&family=Fredericka+the+Great&family=Great+Vibes&family=Henny+Penny&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Mea+Culpa&family=Orelega+One&family=Oswald:wght@500;700&family=Permanent+Marker&family=Playfair+Display:ital,wght@0,800;0,900;1,400;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,400;0,700;0,900;1,100;1,300&family=Smokum&family=Special+Elite&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.mainContainer {
+  padding: 1rem;
+  background-color: rgb(228, 226, 226);
+  flex-grow: 1;
+  height: 100vh;
+
+  
+  box-shadow: 5px -5px 30px 0  rgb(163, 163, 163);
+  overflow: hidden;
+  position: relative;
+}
+.firstsection {
+  display: flex;
+}
+h1 {
+  letter-spacing: -.7px;
+  font-weight: 900;
+  font-size: 1.5rem;
+  text-shadow: 1px 1px 1px black;
+}
+.firstsection :nth-child(2) {
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+  align-items: center;
+}
+.secondContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 3rem;
+  gap: 1rem;
+}
+
+p,
+h1,
+h2 {
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+}
+h2{
+    font-size: 2rem;
+}
+p {
+  font-weight: 900;
+  font-size: 1.5rem;
+ 
+  color: #9c9c9c;
+}
+.playBut {
+  
+  width: calc(80% + 2vw);
+  border: 1px solid grey;
+  height: 1rem;
+  border-radius: 1rem;
+ 
+background: linear-gradient(90deg, rgba(132,198,241,1) 0%, rgba(20,138,210,1) 50%, rgba(80,226,241,1) 70%, #fff 70%);
+}
+
+
+.foto {
+  background-image: url(./assets/zdob&zdub.jpg);
+  width: 60%;
+  margin: 0 auto;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background-size: cover;
+  object-fit: cover;
+  box-shadow: -5px 5px 15px 0 grey;
+}
+header > div,
+footer > div {
+  width: calc(4rem + 2vw);
+  aspect-ratio: 1;
+  background-color: rgb(231, 231, 231);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header > div {
+border-radius: .7rem;
+background: linear-gradient(145deg, #cacaca, #f0f0f0);
+box-shadow:  21px 21px 41px #dedede,
+             -21px -21px 41px #e2e2e2;
+}
+.firstsection :first-child i {
+  font-size: 2rem;
+}
+.firstsection :last-child i {
+  font-size: 2rem;
+  color: hsl(2, 100%, 50%);
+  font-weight: 900;
+  font-style: bold;
+}
+
+.thirdContainer {
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem;
+
+}
+
+.but1 {
+  box-shadow: -5px 5px 10px 0 hsl(0, 1%, 71%);
+  border-radius: 1.5rem;
+}
+
+.but1 i{
+    font-size:3rem ;
+    color: #4b4a4a;
+}
+.but2 {
+  box-shadow: inset -5px 5px 10px 0 hsl(0, 1%, 71%);
+  border-radius: 1.7rem;
+}
+.but2 i{
+font-size:3rem ;
+    color: #51e4f2;
+
+}
+.footerBut div {
+  background-color: aliceblue;
+  width: calc(50% + 2vw);
+  border: 1px solid grey;
+  height: 0.5rem;
+  border-radius: 1rem;
+  box-shadow: inset 0px 1px 3px 0 grey;
+}
+
+.footerBut {
+display: flex;
+justify-content: center;
+align-items: center;
+  bottom: 0;
+  width: 100%;
+
+}
+
+@media (min-width: 40em) {
+  .mainContainer {
+    width: 50%;
+    flex-grow: 0;
+    height: 100%;
+    border-radius: 1rem;
+
+  }
+ 
+
+@media (min-width: 60em){
+  .mainContainer {
+    width: 30%;
+    height: 100%;
+  }
+  
+}
+   
+  
+
