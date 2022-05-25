@@ -16,8 +16,6 @@ body {
   background-color: rgb(228, 226, 226);
   flex-grow: 1;
   height: 100vh;
-
-  
   box-shadow: 5px -5px 30px 0  rgb(163, 163, 163);
   overflow: hidden;
   position: relative;
@@ -25,11 +23,26 @@ body {
 .firstsection {
   display: flex;
 }
+p,
+h1,
+h2 {
+  font-family: 'Inter', sans-serif;
+  
+}
+h2{
+    font-size: 2rem;
+}
+p {
+  font-weight: 900;
+  font-size: 1.5rem;
+ 
+  color: #9c9c9c;
+}
 h1 {
   letter-spacing: -.7px;
   font-weight: 900;
   font-size: 1.5rem;
-  text-shadow: 1px 1px 1px black;
+  
 }
 .firstsection :nth-child(2) {
   display: flex;
@@ -46,25 +59,11 @@ h1 {
   gap: 1rem;
 }
 
-p,
-h1,
-h2 {
-  font-family: 'Inter', sans-serif;
-  font-weight: 500;
-}
-h2{
-    font-size: 2rem;
-}
-p {
-  font-weight: 900;
-  font-size: 1.5rem;
- 
-  color: #9c9c9c;
-}
+
 .playBut {
   
   width: calc(80% + 2vw);
-  border: 1px solid grey;
+  border: 1px solid rgb(191, 191, 191);
   height: 1rem;
   border-radius: 1rem;
  
@@ -134,7 +133,7 @@ font-size:3rem ;
 }
 .footerBut div {
   background-color: aliceblue;
-  width: calc(50% + 2vw);
+  width: calc(60% + 2vw);
   border: 1px solid grey;
   height: 0.5rem;
   border-radius: 1rem;
@@ -145,8 +144,10 @@ font-size:3rem ;
 display: flex;
 justify-content: center;
 align-items: center;
-  bottom: 0;
-  width: 100%;
+width: 100%;
+padding: 3rem;
+
+
 
 }
 
